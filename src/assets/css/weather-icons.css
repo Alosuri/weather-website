@@ -1,0 +1,299 @@
+/*!
+ *  Weather Icons 2.0.10
+ *  Updated November 1, 2020
+ *  Weather themed icons for Bootstrap
+ *  Author - Erik Flowers - erik@helloerik.com
+ *  Email: erik@helloerik.com
+ *  Twitter: http://twitter.com/Erik_UX
+ *  ------------------------------------------------------------------------------
+ *  Maintained at http://erikflowers.github.io/weather-icons
+ *
+ *  License
+ *  ------------------------------------------------------------------------------
+ *  - Font licensed under SIL OFL 1.1 -
+ *    http://scripts.sil.org/OFL
+ *  - CSS, SCSS and LESS are licensed under MIT License -
+ *    http://opensource.org/licenses/mit-license.html
+ *  - Documentation licensed under CC BY 3.0 -
+ *    http://creativecommons.org/licenses/by/3.0/
+ *  - Inspired by and works great as a companion with Font Awesome
+ *    "Font Awesome by Dave Gandy - http://fontawesome.io"
+ */
+@font-face {
+  font-family: 'weathericons';
+  src: url('../font/weathericons-regular-webfont.eot');
+  src: url('../font/weathericons-regular-webfont.eot?#iefix') format('embedded-opentype'), url('../font/weathericons-regular-webfont.woff2') format('woff2'), url('../font/weathericons-regular-webfont.woff') format('woff'), url('../font/weathericons-regular-webfont.ttf') format('truetype'), url('../font/weathericons-regular-webfont.svg#weather_iconsregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.wi {
+  display: inline-block;
+  font-family: 'weathericons';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.wi-fw {
+  text-align: center;
+  width: 1.4em;
+}
+.wi-rotate-90 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+.wi-rotate-180 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+.wi-rotate-270 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  -webkit-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
+.wi-flip-horizontal {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1);
+  -webkit-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+}
+.wi-flip-vertical {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1);
+  -webkit-transform: scale(1, -1);
+  -ms-transform: scale(1, -1);
+  transform: scale(1, -1);
+}
+
+.wi-0:before {
+  content: "\f00d";
+}
+
+.wi-1:before {
+  content: "\f00c"
+}
+
+.wi-2:before {
+  content: "\f002";
+}
+
+.wi-3:before {
+  content: "\f041";
+}
+
+.wi-45:before {
+  content: "\f003";
+}
+
+.wi-48:before {
+  content: "\f014";
+}
+
+.wi-51:before {
+  content: "\f009";
+}
+
+.wi-53:before {
+  content: "\f009";
+}
+
+
+.wi-55:before {
+  content: "\f01a";
+}
+
+.wi-56:before {
+  content: "\f076";
+}
+
+.wi-57:before {
+  content: "\f01a";
+}
+
+.wi-61:before {
+  content: "\f008";
+}
+
+.wi-63:before {
+  content: "\f008";
+}
+
+.wi-65:before {
+  content: "\f008";
+}
+
+.wi-66:before {
+  content: "\f006";
+}
+
+.wi-67:before {
+  content: "\f006";
+}
+
+.wi-71:before {
+  content: "\f00a";
+}
+
+.wi-73:before {
+  content: "\f00a";
+}
+
+.wi-75:before {
+  content: "\f00a";
+}
+
+.wi-77:before {
+  content: "\f00a";
+}
+
+.wi-80:before {
+  content: "\f008";
+}
+
+.wi-81:before {
+  content: "\f008";
+}
+
+.wi-82:before {
+  content: "\f008";
+}
+
+.wi-85:before {
+  content: "\f00a";
+}
+
+.wi-86:before {
+  content: "\f005";
+}
+
+.wi-95:before {
+  content: "\f005";
+}
+
+.wi-96:before {
+  content: "\f005";
+}
+
+.wi-99:before {
+  content: "\f005";
+}
+
+.wi-night-0:before {
+  content: "\f02e";
+}
+
+.wi-night-1:before {
+  content: "\f081"
+}
+
+.wi-night-2:before {
+  content: "\f086";
+}
+
+.wi-night-3:before {
+  content: "\f041";
+}
+
+.wi-night-45:before {
+  content: "\f04a";
+}
+
+.wi-night-48:before {
+  content: "\f014";
+}
+
+.wi-night-51:before {
+  content: "\f029";
+}
+
+.wi-night-53:before {
+  content: "\f029";
+}
+
+
+.wi-night-55:before {
+  content: "\f01a";
+}
+
+.wi-night-56:before {
+  content: "\f076";
+}
+
+.wi-night-57:before {
+  content: "\f01a";
+}
+
+.wi-night-61:before {
+  content: "\f028";
+}
+
+.wi-night-63:before {
+  content: "\f028";
+}
+
+.wi-night-65:before {
+  content: "\f028";
+}
+
+.wi-night-66:before {
+  content: "\f026";
+}
+
+.wi-night-67:before {
+  content: "\f026";
+}
+
+.wi-night-71:before {
+  content: "\f02a";
+}
+
+.wi-night-73:before {
+  content: "\f02a";
+}
+
+.wi-night-75:before {
+  content: "\f02a";
+}
+
+.wi-night-77:before {
+  content: "\f02a";
+}
+
+.wi-night-80:before {
+  content: "\f028";
+}
+
+.wi-night-81:before {
+  content: "\f028";
+}
+
+.wi-night-82:before {
+  content: "\f028";
+}
+
+.wi-night-85:before {
+  content: "\f02a";
+}
+
+.wi-night-86:before {
+  content: "\f033";
+}
+
+.wi-night-95:before {
+  content: "\f033";
+}
+
+.wi-night-96:before {
+  content: "\f033";
+}
+
+.wi-night-99:before {
+  content: "\f033";
+}
+
+
