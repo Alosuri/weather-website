@@ -1,31 +1,9 @@
 # Simple weather website.
 
+## About
 
+Simple weather website created with [Vue.js](https://vuejs.org/) and [Open Meteo API](https://open-meteo.com/). I also used [Flags API](https://flagsapi.com/) and [Weather Icons](https://erikflowers.github.io/weather-icons/).
 
-This template should help get you started developing with Vue 3 in Vite.
+## Preview
 
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+![alt-text](https://github.com/alosuri/weather-website/blob/main/screenshots/screenshot_1.png)
